@@ -23,6 +23,25 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/ats-resume-analyzer.git
-cd ats-resume-analyzer
+git clone https://github.com/HR-VijayKumar/ATS_Resume_Analyzer.git
+cd ATS_Resume_Analyzer
 pip install -r requirements.txt
+```
+
+## Setup .env
+
+Create a .env file in the project root with your API key:
+
+GOOGLE_API_KEY=your_google_api_key_here
+
+## Run App
+
+streamlit run app.py
+
+## 📥 Usage
+
+- Upload your PDF resume
+- Paste a job description
+- Click Analyze My Resume
+- Download the PDF report or export JSON
+
