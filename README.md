@@ -32,11 +32,15 @@ pip install -r requirements.txt
 
 Create a .env file in the project root with your API key:
 
+```bash
 GOOGLE_API_KEY=your_google_api_key_here
+```
 
 ## Run App
 
+```bash
 streamlit run app.py
+```
 
 ## 📥 Usage
 
